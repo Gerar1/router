@@ -5,16 +5,16 @@ const Layout = () =>{
     <nav>
         <ul>
           <li>
-            <NavLink end to="/">Principal</NavLink>
+            <NavLink end to="/">Inicio.</NavLink>
           </li>
           <li>
-            <NavLink to="/about">Más</NavLink>
+            <NavLink to="/about">Sobre Nosotros.</NavLink>
           </li>
           <li>
-            <NavLink to="/dashboard">Extra</NavLink>
+            <NavLink to="/dashboard">Extra.</NavLink>
           </li>
           <li>
-            <NavLink end to="/products">Referentes &#128526;</NavLink>
+            <NavLink end to="/products">Lista de Tareas.</NavLink>
           </li>
         </ul>
     </nav>
