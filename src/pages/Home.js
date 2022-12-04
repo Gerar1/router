@@ -1,5 +1,5 @@
 const Home = () =>{
-    return <h1>¿Quieres saber quienes son algunos de los programadores más famosos de la Historia?</h1>;
+    return <h1 className="g">Estimado usuario Bienvenido a su lista de Tareas ☺</h1>;
    }
    
    export default Home;
