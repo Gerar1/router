@@ -12,6 +12,9 @@ import './App.css';
 import { TodoAdd } from './components/TodoAdd';
 import { TodoList } from './components/TodoList';
 import { useTodo } from './hooks/useTodo';
+import Example from './Header';
+import Flex from './components/Flex';
+
 
 
 function App() {
@@ -29,6 +32,8 @@ function App() {
   
   return (
     <div>
+	  <Example/>
+	  <Flex/>
       <h1 className='t'>Menú.</h1>
       <Routes>
         <Route path="/" element={<Layout />}>
